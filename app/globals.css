@@ -10,24 +10,36 @@ body {
   font-family: Arial, sans-serif;
 }
 
-main {
+.hero {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  text-align: center;
   padding: 24px;
 }
 
-h1 {
-  font-size: 48px;
+.hero-content {
+  max-width: 700px;
+  text-align: center;
 }
 
-p {
+.hero-label {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero-text {
   font-size: 18px;
   color: #bbb;
+  margin-bottom: 24px;
+  line-height: 1.6;
 }
 
 button {
@@ -36,4 +48,5 @@ button {
   border: none;
   padding: 12px 20px;
   cursor: pointer;
+  font-size: 16px;
 }
